@@ -1,0 +1,2 @@
+Servidor corriendo en el puerto 5000
+Conectado a MongoDB

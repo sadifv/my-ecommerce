@@ -1,0 +1,91 @@
+/* Estilos exclusivos para el panel de administrador */
+
+.admin-panel {
+  background: #f4f4f4;
+  min-height: 400px;
+}
+
+.admin-panel h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.admin-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.admin-content h3 {
+  color: #e8491f;
+  margin-top: 0;
+}
+
+/· Tabla de productos */
+.tabla-productos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.tabla-productos th,
+.tabla-productos td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabla-productos th {
+  background: #35424a;
+  color: #fff;
+}
+
+.tabla-productos tr:hover {
+  background: #f9f9f9;
+}
+
+/· Formularios */
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/· Botones de acción */
+.btn-accion {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #35424a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.btn-accion.editar {
+  background: #3498db;
+}
+
+.btn-accion.eliminar {
+  background: #e74c3c;
+}
